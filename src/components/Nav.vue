@@ -1,23 +1,8 @@
 <template>
-<div class="bg-green-900 text-green-200">
-   <div class="container mx-auto flex items-center justify-between">
-    <h1 class="tracking-tighter text-3xl font-thin">Basic<span class="font-normal">Router</span>
+<div class="text-green-200 bg-green-900">
+   <div class="container flex items-center justify-center mx-auto">
+    <h1 class="py-8 text-3xl font-thin tracking-tighter">Advice<span class="font-normal">Call</span>
     </h1>
-    <nav>
-        <ul class="flex space-x-4">
-            <router-link to="/">
-            <li class="py-8 px-4 hover: cursor-pointer hover:bg-green-500 hover:text-green-800">Home
-            </li>
-            </router-link>
-            <router-link :to="{ name: 'About' }">
-               <li class="py-8 px-4 hover: cursor-pointer hover:bg-green-500 hover:text-green-80">About</li> 
-            </router-link>
-            <router-link to="/hello">
-              <li class="py-8 px-4 hover: cursor-pointer hover:bg-green-500 hover:text-green-80">Hello</li>  
-            </router-link>
-            
-        </ul>
-    </nav>
     </div> 
 </div>
 
